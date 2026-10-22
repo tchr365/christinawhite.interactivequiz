@@ -1,2 +1,2 @@
 # christinawhite.github.io
-Welcome to my e-portfolio website!
+Welcome to my website!
