@@ -73,7 +73,7 @@ var temp3=temp2.options[temp2.selectedIndex].text
 if (temp3!=solution[whichone]&&temp2.selectedIndex!=0)
 document.instantquiz.thesolution.value="Solid effort, but the correct answer is "+solution[whichone]
 else if(temp2.selectedIndex!=0)
-document.instantquiz.thesolution.value=compliments[Math.round(Math.random()*compliments.length-1)]
+document.instantquiz.thesolution.value=compliments[Math.floor(Math.random()*compliments.length)]
 }
 
 generatequestions()
